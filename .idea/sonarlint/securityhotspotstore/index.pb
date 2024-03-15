@@ -87,3 +87,14 @@ o
 ?src/main/java/org/structure/controller/CatalogueController.java,f\8\f80ea0131a92eb2012d4b8d0cea66ce505dccc2a
 g
 7src/main/java/org/structure/service/ArticleService.java,d\6\d6464fb956585776b35e5cd73831d292ae3a1b40
+m
+=src/main/java/org/structure/controller/DetailsController.java,3\b\3bffd9efb97b71f5c7d0ba7a38e9beaf24d581a9
+P
+ src/main/webapp/view/details.jsp,8\a\8aee3d5acb599ddea97055db9b8e6816f87a236e
+?
+script/sql.java,3\e\3e0c881a40295bc05383024d84b8d7ceda7021f4
+3
+sql,d\b\db1dfd45b163e0f299b0e158a21766a53bb0fa68
+:
+
+script.sql,a\f\af754803463001925ab886a22d501c00448532b2

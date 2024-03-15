@@ -26,7 +26,7 @@ public class ArticleService {
         return article.findById(id);
     }
 
-    public Article findByTitleService(String titre) {
-        return article.findByTitle(titre);
+    public Article FindArticleByDesignation(String designation) {
+        return article.FindArticleByDesignation(designation);
     }
 }

@@ -28,10 +28,10 @@ public class ArticleJPA implements ArticleDAO {
     }
 
     @Override
-    public Article findByTitle(String titre) {
-        String sql = "SELECT c FROM Article c WHERE c.titre = :titre";
+    public Article FindArticleByDesignation(String designation) {
+        String sql = "SELECT c FROM Article c WHERE c.designation = :designation";
         TypedQuery<Article> query = entityManager.createQuery(sql, Article.class);
-        query.setParameter("titre", titre);
+        query.setParameter("designation", designation);
         try {
             return query.getSingleResult();
         } catch (NoResultException ex) {

@@ -82,10 +82,11 @@ public class ArticleDAOImpl implements ArticleDAO {
         return article;
     }
 
-    public Article findByTitle(String titre) {
+    @Override
+    public Article FindArticleByDesignation(String designation) {
         ConnectDB db = new ConnectDB();
         Connection connection;
-        String sql = "SELECT * FROM article WHERE titre = ?";
+        String sql = "SELECT * FROM article WHERE designation = ?";
         Article article = null;
         PreparedStatement statement = null;
         ResultSet rs = null;
@@ -93,7 +94,7 @@ public class ArticleDAOImpl implements ArticleDAO {
         try {
             connection = db.getConnection();
             statement = connection.prepareStatement(sql);
-            statement.setString(1, titre);
+            statement.setString(1, designation);
             rs = statement.executeQuery();
             if (rs.next()) {
                 CategorieDAO categorieDAO = new CategorieDAOImpl();

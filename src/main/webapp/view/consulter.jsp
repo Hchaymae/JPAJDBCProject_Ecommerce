@@ -1,19 +1,19 @@
 <%@ include file="/WEB-INF/jspf/header.jsp" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 
-<div style="margin: 0 auto; width: 50%;">
+<div style="margin: 0 auto; width: 50%;" class="text-center">
 
     <h2 align="center">Catalogue</h2>
     <hr><br><br>
     <table class="table">
         <thead>
         <tr>
-            <th scope="col">Référence</th>
-            <th scope="col">Titre</th>
-            <th scope="col">Auteur</th>
-            <th scope="col">Photo</th>
-            <th scope="col">Prix</th>
-            <th scope="col"></th>
+            <th scope="col" class="text-primary">Référence</th>
+            <th scope="col" class="text-primary">Titre</th>
+            <th scope="col" class="text-primary">Auteur</th>
+            <th scope="col" class="text-primary">Photo</th>
+            <th scope="col" class="text-primary">Prix</th>
+            <th scope="col" class="text-primary"></th>
         </tr>
         </thead>
         <tbody>
@@ -41,7 +41,7 @@
                         <div class="modal-body">
                             <form method="POST" action="/sebo/panier?designation=${article.designation}">
                                 <div class="mb-3">
-                                    <label for="message-text" class="col-form-label">Quantité :</label>
+                                    <label class="col-form-label">Quantité :</label>
                                     <input type="number" name="qte" id="qte" class="form-control">
                                 </div>
                                 <div class="modal-footer">

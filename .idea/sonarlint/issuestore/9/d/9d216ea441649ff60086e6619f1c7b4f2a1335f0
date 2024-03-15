@@ -14,10 +14,8 @@ java:S1192&"FDefine a constant instead of duplicating this literal "stock" 3 ti
 d
 java:S1192#"GDefine a constant instead of duplicating this literal "auteur" 3 times.(£Øì¨8±ö“ä1
 l
-java:S2095_"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8¿½°•ä1
+java:S2095`"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8ãæ•ä1
 q
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ8¿½°•ä1
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ8Õæç•ä1
 l
 java:S2095="OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8À½°•ä1
-T
-java:S1128"7Remove this unused import 'org.structure.model.Client'.(¶°ôĞ8ì½°•ä1
