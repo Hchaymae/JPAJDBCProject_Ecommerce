@@ -5,6 +5,8 @@
         <class>org.structure.model.Client</class>
         <class>org.structure.model.Article</class>
         <class>org.structure.model.Categorie</class>
+        <class>org.structure.model.Commande</class>
+        <class>org.structure.model.LigneCommande</class>
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://mysql-23b70503-hamdounechaymae-7b98.a.aivencloud.com:10809/SEBO"/>
             <property name="jakarta.persistence.jdbc.user" value="avnadmin"/>
