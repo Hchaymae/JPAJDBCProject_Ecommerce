@@ -10,6 +10,6 @@ public interface ArticleDAO {
 //    boolean edit(Article article);
     List<Article> findAll();
     Article findById(int id);
-    Article findByTitle(String titre);
+    Article FindArticleByDesignation(String designation);
 //    boolean isTitleUnique(String title);
 }
