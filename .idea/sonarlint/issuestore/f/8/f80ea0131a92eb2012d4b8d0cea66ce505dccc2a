@@ -1,0 +1,25 @@
+
+
+java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î8û â”ä1
+s
+java:S1450"VRemove the "article" field and declare it as a local variable in the relevant methods.(ƒ¤‹è8ı â”ä1
+M
+java:S1948"0Make "articleService" transient or serializable.(ÿçŒ8œí–•ä1
+F
+java:S1948")Make "article" transient or serializable.(ƒ¤‹è8œí–•ä1
+L
+java:S1948"*Make "articles" transient or serializable.(ã¡¹°ûÿÿÿÿ8í–•ä1
+W
+java:S1161":Add the "@Override" annotation above this method signature( Üó8‘¿•ä1
+\
+java:S1161":Add the "@Override" annotation above this method signature(°Å·ğşÿÿÿÿ8”¿•ä1
+ƒ
+java:S1989#"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ÜÕˆêøÿÿÿÿ8–¿•ä1
+W
+java:S1161&":Add the "@Override" annotation above this method signature(‚“¶î8—¿•ä1
+T
+java:S1128	"7Remove this unused import 'org.structure.model.Client'.(¶°ôĞ8°í–•ä1
+b
+java:S1128"@Remove this unused import 'org.structure.service.ClientService'.(Ï‘¨üüÿÿÿÿ8±í–•ä1
+H
+java:S1068"+Remove this unused "article" private field.(ƒ¤‹è8ˆ¡â”ä1
