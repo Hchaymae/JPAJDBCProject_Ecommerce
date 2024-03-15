@@ -13,7 +13,8 @@ public class ClientService {
     ClientDAO clientDao;
 
     public ClientService() {
-        this.clientDao = new ClientJPA();
+        this.clientDao = new ClientDAOImpl();
+//        this.clientDao = new ClientJPA();
     }
 
     public boolean AddService(HttpServletRequest request,Client client) {
