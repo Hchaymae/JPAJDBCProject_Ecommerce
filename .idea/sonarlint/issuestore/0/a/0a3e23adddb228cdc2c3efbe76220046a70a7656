@@ -1,0 +1,13 @@
+
+e
+java:S1192"HDefine a constant instead of duplicating this literal "SUCCESS" 3 times.(Ì‘…í8Œç¤Œä1
+h
+java:S1192"FDefine a constant instead of duplicating this literal "ERROR" 3 times.(ÉØµ¨üÿÿÿÿ8–‡¦Œä1
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çºôk8§š†Œä1
+o	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢‘úÜüÿÿÿÿ8†º‘Œä1
+o	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¯ëÜþÿÿÿÿ8‰º‘Œä1
+o	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÒÏÒøÿÿÿÿ8‹º‘Œä1
+j	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úñÀ‰8‹º‘Œä1
+o	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÃ®âøÿÿÿÿ8Žº‘Œä1
+^
+java:S1128"ARemove this unused import 'org.structure.dao.impl.ClientDAOImpl'.(ÆÂ§¨8ò±ç’ä1

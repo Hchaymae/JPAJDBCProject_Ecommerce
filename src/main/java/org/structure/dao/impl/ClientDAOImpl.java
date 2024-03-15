@@ -1,7 +1,7 @@
 package org.structure.dao.impl;
 
 import org.apache.commons.codec.digest.DigestUtils;
-import org.structure.dao.ClientDao;
+import org.structure.dao.ClientDAO;
 import org.structure.model.Client;
 import org.structure.util.ConnectDB;
 
@@ -12,7 +12,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClientDAOImp implements ClientDao {
+public class ClientDAOImpl implements ClientDAO {
     @Override
     public int addClient(Client client) {
         ConnectDB db = new ConnectDB();
@@ -51,7 +51,7 @@ public class ClientDAOImp implements ClientDao {
         Connection connection = new ConnectDB().getConnection();
         String sql = "UPDATE client SET email=?, nom=?, prenom=?, adresse=?, codepostale=?,ville=?,tel=?,mdp=? WHERE id=?";
         boolean result = false;
-
+        String hashedPassword = DigestUtils.sha256Hex(client.getMdp());
         try {
             PreparedStatement statement = connection.prepareStatement(sql);
 
@@ -62,7 +62,7 @@ public class ClientDAOImp implements ClientDao {
             statement.setInt(5, client.getCodepostale());
             statement.setString(6, client.getVille());
             statement.setString(7, client.getTel());
-            statement.setString(8, client.getMdp());
+            statement.setString(8, hashedPassword);
             statement.setInt(9, client.getId());
 
             result = statement.executeUpdate() > 0;
@@ -97,7 +97,7 @@ public class ClientDAOImp implements ClientDao {
     public Client findClientById(int id) {
         ConnectDB db = new ConnectDB();
         Connection connection;
-        String sql = "SELECT email,nom,  prenom,  adresse,  codepostale,  ville,  tel,  mdp FROM client WHERE id = ?";
+        String sql = "SELECT * FROM client WHERE id = ?";
         Client client = null;
         PreparedStatement statement = null;
         ResultSet rs = null;
@@ -161,8 +161,11 @@ public class ClientDAOImp implements ClientDao {
     public Client findClient(String email, String mdp) {
         ConnectDB db = new ConnectDB();
         Connection connection;
-        String sql = "SELECT email,nom,  prenom,  adresse,  codepostale,  ville,  tel,  mdp FROM client WHERE email = ? AND mdp = ?";
+        String sql = "SELECT * FROM client WHERE email = ? AND mdp = ?";
         Client client = null;
+
+        String hashedPassword = DigestUtils.sha256Hex(mdp);
+
         PreparedStatement statement = null;
         ResultSet rs = null;
 
@@ -170,7 +173,7 @@ public class ClientDAOImp implements ClientDao {
             connection = db.getConnection();
             statement = connection.prepareStatement(sql);
             statement.setString(1, email);
-            statement.setString(2, mdp);
+            statement.setString(2, hashedPassword);
             rs = statement.executeQuery();
             if (rs.next()) {
                 client = new Client(rs.getInt("id"),

@@ -21,3 +21,41 @@ b
 2src/main/java/org/structure/dao/jpa/ClientJPA.java,1\6\1651a212808b8f78a8f96e3e587ee138f5729310
 h
 8src/main/java/org/structure/controller/HelloServlet.java,e\b\eb3e03bf090e0cf51725eb44489c1984a3ecd675
+P
+ src/main/webapp/view/accueil.jsp,1\e\1e9a0c1e6ab1b38453c345b2ee96c968159ae498
+W
+'src/main/webapp/WEB-INF/jspf/footer.jsp,0\f\0fe0dc26b9dffb715d7cfeb6968a6174e09e8d1b
+W
+'src/main/webapp/WEB-INF/jspf/header.jsp,8\2\82582b1c5aa61ccc19cde2cbb3a185adb9e83146
+Q
+!src/main/webapp/view/inscrire.jsp,5\b\5b01b6f9bc2abd0cc7f07ea9540dbcf1614d0ece
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+l
+<src/main/java/org/structure/controller/ClientController.java,1\6\164e2673f123baf17b99c1acb0dc7a0ee3c1b475
+q
+Asrc/main/java/org/structure/controller/InscriptionController.java,c\a\ca6027396996ede3253b686ffafd4981295d9c65
+f
+6src/main/java/org/structure/service/ClientService.java,0\a\0a3e23adddb228cdc2c3efbe76220046a70a7656
+^
+.src/main/java/org/structure/dao/ClientDAO.java,8\9\897bf8bbc69ed138079927eaf2f02974b2bd1622
+S
+#src/main/webapp/view/identifier.jsp,2\f\2f42b4012d47ab59343f825894d9e0c4c90a6fe3
+g
+7src/main/java/org/structure/dao/impl/ClientDAOImpl.java,9\2\92acf6a883781027b5843a05e3af5b0df7c15af5
+L
+src/main/webapp/inscrire.jsp,0\6\06b05f9a258f32fdc1760e4987aa02650d171dfd
+N
+src/main/webapp/identifier.jsp,a\5\a557001707db263e7cea1b69ed1674fba7c30d86
+t
+Dsrc/main/java/org/structure/controller/IdentificationController.java,6\a\6a0bcb254e9bfbd0ad1b6fce1c0880a2fdd1217a
+O
+src/main/webapp/view/erreur.jsp,3\4\3425e2cd895efc4b117d410f99f7c8e4b2d9488a
+m
+=src/main/java/org/structure/controller/AccueilController.java,b\6\b6a2dba989085b91cb0184e1372966234940d7d3
+K
+src/main/webapp/accueil.jsp,5\b\5b21ef5e85ddae107a036c5544a44217dc80b093
+M
+src/main/webapp/view/main.jsp,a\e\aef4d22d30ecf1c5c195c63c8969eb1d3d9b5d6f
+`
+0src/main/java/org/structure/controller/Main.java,f\2\f246e22c45729a5e8cc4e4b21c577069b4bed158
