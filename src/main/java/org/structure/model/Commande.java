@@ -1,9 +1,15 @@
 package org.structure.model;
 
 
+import jakarta.persistence.*;
+
 import java.util.Date;
 
+@Entity
+@Table(name="commande")
 public class Commande {
+    @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int numcommande;
     private int codeClient;
     private Date datecommande;
@@ -15,13 +21,20 @@ public class Commande {
         this.datecommande = datecommande;
         this.status = status.Normal;
     }
-
     public Commande() {
+        super();
     }
 
     public Commande(int codeClient) {
         this.codeClient = codeClient;
         this.status = status.Normal;
+    }
+
+    public Commande(int numcommande, int codeClient, Date datecommande, StatusCommande status) {
+        this.numcommande = numcommande;
+        this.codeClient = codeClient;
+        this.datecommande = datecommande;
+        this.status = status;
     }
 
     public Commande(int codeClient, Date datecommande) {

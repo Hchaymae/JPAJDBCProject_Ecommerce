@@ -1,15 +1,32 @@
 package org.structure.model;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name="lignecommande")
 public class LigneCommande {
+
+    @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private int id;
     private int numcommande;
     private int codearticle;
     private int qtecde;
 
-    public LigneCommande(int numcommande, int codearticle, int qtecde) {
+    public LigneCommande(int id, int numcommande, int codearticle, int qtecde) {
+        this.id = id;
         this.numcommande = numcommande;
         this.codearticle = codearticle;
         this.qtecde = qtecde;
     }
+
+    public LigneCommande(int numcommande, int codearticle, int qtecde) {
+        this.id = 0;
+        this.numcommande = numcommande;
+        this.codearticle = codearticle;
+        this.qtecde = qtecde;
+    }
+
 //    public LigneCommande( int codearticle, int qtecde) {
 //        this.numcommande = 0;
 //        this.codearticle = codearticle;
@@ -17,6 +34,15 @@ public class LigneCommande {
 //    }
 
     public LigneCommande() {
+        super();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getNumcommande() {

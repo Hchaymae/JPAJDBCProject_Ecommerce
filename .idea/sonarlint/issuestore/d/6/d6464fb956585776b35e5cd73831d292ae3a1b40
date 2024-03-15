@@ -1,3 +1,11 @@
 
 ]	java:S125"<This block of commented-out lines of code should be removed.(ò—¬›şÿÿÿÿ8âÊ•ä1
 o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªñ‘Üøÿÿÿÿ8ñ‰î•ä1
+U
+java:S1128"8Remove this unused import 'org.structure.dao.ClientDAO'.(äñ•Í8Í¥ó–ä1
+Z
+java:S1128"=Remove this unused import 'org.structure.dao.jpa.ArticleJPA'.(”†Æ8Î¥ó–ä1
+Y
+java:S1128"<Remove this unused import 'org.structure.dao.jpa.ClientJPA'.(Ÿ½¹ƒ8Î¥ó–ä1
+T
+java:S1128	"7Remove this unused import 'org.structure.model.Client'.(¶°ôĞ8Ï¥ó–ä1
