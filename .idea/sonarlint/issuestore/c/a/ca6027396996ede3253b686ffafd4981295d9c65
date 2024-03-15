@@ -1,0 +1,23 @@
+
+
+java:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î8¾‹Œä1
+L
+java:S1948"/Make "clientService" transient or serializable.(’†˜É8ı¯ÏŒä1
+J
+java:S1948"(Make "client" transient or serializable.(‚Ø–øùÿÿÿÿ8ı¯ÏŒä1
+W
+java:S1161":Add the "@Override" annotation above this method signature( Üó8Â‹Œä1
+\
+java:S1161":Add the "@Override" annotation above this method signature(ÿàğÿùÿÿÿÿ8Æ‹Œä1
+{
+java:S1989"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ŸÜ‚¼úÿÿÿÿ8È‹Œä1
+ƒ
+java:S19890"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ÜÕˆêøÿÿÿÿ8Î‹Œä1
+W
+java:S11613":Add the "@Override" annotation above this method signature(‚“¶î8Î‹Œä1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8‡°ÏŒä1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8‡°ÏŒä1
+U
+java:S1128"8Remove this unused import 'org.structure.dao.ClientDAO'.(äñ•Í8ˆ°ÏŒä1

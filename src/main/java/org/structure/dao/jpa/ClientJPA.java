@@ -1,22 +1,32 @@
 package org.structure.dao.jpa;
 
 import jakarta.persistence.*;
-import org.structure.dao.ClientDao;
+import org.apache.commons.codec.digest.DigestUtils;
+import org.structure.dao.ClientDAO;
 import org.structure.model.Client;
 
 import java.util.List;
 
-public class ClientJPA implements ClientDao {
+public class ClientJPA implements ClientDAO {
+
+    private EntityManagerFactory entityManagerFactory;
     @PersistenceContext(unitName = "Eclipselink")
     private EntityManager entityManager;
-
+    public ClientJPA() {
+        entityManagerFactory = Persistence.createEntityManagerFactory("Eclipselink");
+        entityManager = entityManagerFactory.createEntityManager();
+        entityManager.getTransaction().begin();
+    }
     @Override
     public int addClient(Client client) {
         if(client == null) {
-            return -1;
-        }else {
-            entityManager.persist(client);
             return 0;
+        }else{
+            String hashedPassword = DigestUtils.sha256Hex(client.getMdp());
+            client.setMdp(hashedPassword);
+            entityManager.persist(client);
+            entityManager.getTransaction().commit();
+            return 1;
         }
     }
     @Override
@@ -41,29 +51,31 @@ public class ClientJPA implements ClientDao {
     public List<Client> selectAll() {
         return entityManager.createNativeQuery("SELECT * FROM client", Client.class).getResultList();
     }
-    @Override
+     @Override
     public Client findClient(String email, String mdp) {
-        String sql = "SELECT * FROM client WHERE email = ?1 AND mdp = ?2";
-        Query query = entityManager.createNativeQuery(sql, Client.class);
-        query.setParameter(1, email);
-        query.setParameter(2, mdp);
+        String hashedPassword = DigestUtils.sha256Hex(mdp);
+        String sql = "SELECT c FROM Client c WHERE c.email = :email AND c.mdp = :mdp";
+        TypedQuery<Client> query = entityManager.createQuery(sql, Client.class);
+        query.setParameter("email", email);
+        query.setParameter("mdp", hashedPassword);
+
         try {
-            Client client = (Client) query.getSingleResult();
-            return client;
+            return query.getSingleResult();
         } catch (NoResultException ex) {
             return null;
         }
     }
+
     @Override
     public boolean isEmailUnique(String email) {
         String sql = "SELECT * FROM client WHERE email = ?1";
         Query query = entityManager.createNativeQuery(sql, Client.class);
         query.setParameter(1, email);
         try {
-            Client client = (Client) query.getSingleResult();
-            return true;
-        } catch (NoResultException ex) {
+            query.getSingleResult();
             return false;
+        } catch (NoResultException ex) {
+            return true;
         }
     }
 
