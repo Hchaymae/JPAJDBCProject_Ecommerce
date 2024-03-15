@@ -1,0 +1,11 @@
+
+r
+java:S1104	"PMake conn a static final constant or non-public and provide accessors if needed.(€ÙÄ§şÿÿÿÿ8âÆ¹‰ä1
+C
+java:S1170"!Make this final field static too.(ÀÂòÉıÿÿÿÿ8íÆ¹‰ä1
+>
+java:S1170"!Make this final field static too.(Ù•Õ8îÆ¹‰ä1
+>
+java:S1170"!Make this final field static too.(Å²¶8îÆ¹‰ä1
+S
+java:S6437"6Revoke and change this password, as it is compromised.(åşéç8øÆ¹‰ä1
