@@ -5,6 +5,23 @@
 
     <h2 align="center">Catalogue</h2>
     <hr><br><br>
+    <c:if test="${not empty SUCCESS}">
+        <div class="alert alert-success d-flex align-items-center" role="alert">
+            <div>${SUCCESS}</div>
+        </div>
+    </c:if>
+
+    <c:if test="${not empty ERROR}">
+        <div class="alert alert-danger d-flex align-items-center" role="alert">
+            <div>${ERROR}</div>
+        </div>
+    </c:if>
+
+    <c:if test="${not empty WARNING}">
+        <div class="alert alert-warning d-flex align-items-center" role="alert">
+            <div>${WARNING}</div>
+        </div>
+    </c:if>
     <table class="table">
         <thead>
         <tr>
@@ -39,7 +56,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <form method="POST" action="/sebo/panier?designation=${article.designation}">
+                            <form method="POST" action="/sebo/consulter?designation=${article.designation}">
                                 <div class="mb-3">
                                     <label class="col-form-label">Quantité :</label>
                                     <input type="number" name="qte" id="qte" class="form-control">

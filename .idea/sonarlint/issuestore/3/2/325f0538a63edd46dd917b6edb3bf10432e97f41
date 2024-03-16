@@ -1,2 +1,5 @@
 
-]	java:S125"<This block of commented-out lines of code should be removed.(ˆÜ¯Ôÿÿÿÿÿ8ø­¤“ä1
+†
+java:S41655"iRemove this useless assignment; "codearticle" already holds the assigned value along all execution paths.(ûÍû 8È¤Ö­ä1
+L
+java:S16565"/Remove or correct this useless self-assignment.(ûÍû 8å¤Ö­ä1

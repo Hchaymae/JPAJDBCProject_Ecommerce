@@ -2,6 +2,8 @@ package org.structure.model;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 @Table(name="client")
 public class Client {
@@ -16,6 +18,8 @@ public class Client {
     private String ville;
     private String tel;
     private String mdp;
+    @Transient
+    private List<Commande> commandes;
 
     //Contructeurs
     public Client() {

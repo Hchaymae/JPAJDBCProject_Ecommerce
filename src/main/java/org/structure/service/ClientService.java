@@ -4,7 +4,6 @@ package org.structure.service;
 import jakarta.servlet.http.HttpServletRequest;
 import org.structure.dao.ClientDAO;
 import org.structure.dao.impl.ClientDAOImpl;
-import org.structure.dao.jpa.ClientJPA;
 import org.structure.model.Client;
 
 import java.util.List;
@@ -57,7 +56,7 @@ public class ClientService {
         }
     }
 
-    public Client FindService(int id) {
+    public Client findClientByIdService(int id) {
         return clientDao.findClientById(id);
     }
 

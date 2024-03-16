@@ -1,0 +1,8 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(‹ƒÖô8Ø®½°ä1
+V
+java:S1128"9Remove this unused import 'org.structure.dao.ArticleDAO'.(š€ä–8öè¾°ä1
+_
+java:S1128"BRemove this unused import 'org.structure.dao.impl.ArticleDAOImpl'.(”÷ÛÍ8öè¾°ä1
+`
+java:S1128	">Remove this unused import 'org.structure.model.LigneCommande'.(××Â´øÿÿÿÿ8öè¾°ä1

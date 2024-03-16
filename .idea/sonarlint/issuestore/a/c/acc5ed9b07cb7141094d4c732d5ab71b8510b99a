@@ -1,0 +1,24 @@
+
+
+java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î8§Û²®ä1
+X
+java:S1948"6Make "lignecommandeService" transient or serializable.(àĞâÿÿÿÿÿ8íõ ®ä1
+L
+java:S1948"/Make "clientService" transient or serializable.(’†˜É8íõ ®ä1
+J
+java:S1948"(Make "client" transient or serializable.(‚Ø–øùÿÿÿÿ8íõ ®ä1
+S
+java:S1948"1Make "commandeService" transient or serializable.(’Òåúÿÿÿÿ8œ„²®ä1
+W
+java:S1161":Add the "@Override" annotation above this method signature( Üó8ğõ ®ä1
+\
+java:S1161"":Add the "@Override" annotation above this method signature(°Å·ğşÿÿÿÿ8°Û²®ä1
+u
+java:S1989%"XHandle the following exception that could be thrown by "valueOf": NumberFormatException.(¹¬½ó8²Û²®ä1
+G	java:S106,"+Replace this use of System.out by a logger.(»«˜8³Û²®ä1
+ƒ
+java:S19895"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ÜÕˆêøÿÿÿÿ8´Û²®ä1
+W
+java:S11618":Add the "@Override" annotation above this method signature(‚“¶î8µÛ²®ä1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8§Á˜³ä1
