@@ -10,16 +10,16 @@ java:S1192r"GDefine a constant instead of duplicating this literal "prenom" 3 t
 c
 java:S1192p"FDefine a constant instead of duplicating this literal "email" 3 times.(úÁŞ°8†©ÂŠä1
 q
-java:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ8šíŒä1
-q
 java:S2095U"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ8šíŒä1
-q
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ8šíŒä1
 r
 java:S2095‰"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ8šíŒä1
 m
-java:S2095®"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8šíŒä1
-m
 java:S2095Ñ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8šíŒä1
+m
+java:S2095®"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8šíŒä1
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ8šíŒä1
+q
+java:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ8šíŒä1
 l
 java:S2095k"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8àîÄä1

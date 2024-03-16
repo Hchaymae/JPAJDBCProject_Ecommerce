@@ -112,3 +112,13 @@ e
 5src/main/java/org/structure/dao/LigneCommandeDAO.java,6\c\6c619f8ce39ec12cc0a5a740a39be556b771776a
 i
 9src/main/java/org/structure/dao/jpa/LigneCommandeJPA.java,0\a\0a2798dc945a12de80213f89caba72a1b7c22399
+l
+<src/main/java/org/structure/controller/PanierController.java,7\a\7a64b0872cc68b062ccd6a362cc9c206344881a3
+h
+8src/main/java/org/structure/service/CommandeService.java,1\c\1c35917c5623c989ed32ff215c6bf87819312984
+m
+=src/main/java/org/structure/service/LigneCommandeService.java,9\8\988b0ceb7054467e56bf62db43c24d23dacf02ae
+O
+src/main/webapp/view/panier.jsp,c\d\cda421f1b0ce637ca459d5601d89d1edb1be16a0
+u
+Esrc/main/java/org/structure/controller/VisualisePanierController.java,a\c\acc5ed9b07cb7141094d4c732d5ab71b8510b99a

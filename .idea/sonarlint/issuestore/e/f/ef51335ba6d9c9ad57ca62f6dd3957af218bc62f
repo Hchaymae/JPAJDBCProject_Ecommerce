@@ -1,3 +1,21 @@
 
+i
+java:S1192R"GDefine a constant instead of duplicating this literal "qteCde" 3 times.(ñ°›øøÿÿÿÿ8¹Œ§°ä1
+n
+java:S1192P"LDefine a constant instead of duplicating this literal "numcommande" 3 times.(“›³Þÿÿÿÿÿ8ºŒ§°ä1
+n
+java:S1192Q"LDefine a constant instead of duplicating this literal "codearticle" 3 times.(î·ˆÅûÿÿÿÿ8ºŒ§°ä1
+l
+java:S2095("OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8ëŒ§°ä1
+r
+java:S2095š"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8Í­Ö°ä1
 q
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8ª€³˜ä1
+java:S2095H"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8ëŒ§°ä1
+l
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(±ÆÑþ8ëŒ§°ä1
+q
+java:S2095l"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8Í­Ö°ä1
+q
+java:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(“Ó‰Öøÿÿÿÿ8ëŒ§°ä1
+a
+java:S1128"?Remove this unused import 'org.structure.model.StatusCommande'.(‹ÿ½åþÿÿÿÿ8ƒ®Ö°ä1

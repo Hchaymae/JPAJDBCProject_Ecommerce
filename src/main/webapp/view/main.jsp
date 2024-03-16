@@ -8,7 +8,7 @@
         <div style="margin: 0 auto; width: 50%;">
             <b><a href="/sebo/catalogue" style="text-decoration: none;  display: block; color:black;"><span style="color: #6DA5C0;"> Consulter Le Catalogue </span></a></b><br><br>
             <b><a href="suivre.jsp" style="text-decoration: none; display: block; color:black;"><span style="color: #6DA5C0;"> Suivre Vos Commandes </span></a></b> <br><br>
-            <b><a href="visualiser.jsp" style="text-decoration: none; display: block; color:black;"><span style="color: #6DA5C0;"> Visualiser Votre Panier </span></a></b> <br><br>
+            <b><a href="/sebo/visualiser" style="text-decoration: none; display: block; color:black;"><span style="color: #6DA5C0;"> Visualiser Votre Panier </span></a></b> <br><br>
         </div>
     </c:when>
     <c:otherwise>

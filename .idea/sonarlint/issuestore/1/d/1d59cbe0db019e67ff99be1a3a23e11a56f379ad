@@ -1,11 +1,37 @@
 
 o
-java:S11926"MDefine a constant instead of duplicating this literal "datecommande" 3 times.(áþµþÿÿÿÿ8µãã—ä1
+java:S1192P"MDefine a constant instead of duplicating this literal "datecommande" 4 times.(áþµþÿÿÿÿ8ë§²ä1
 h
-java:S11925"KDefine a constant instead of duplicating this literal "codeclient" 3 times.(ÿà’ª8¶ãã—ä1
+java:S1192O"KDefine a constant instead of duplicating this literal "codeclient" 4 times.(ÿà’ª8ë§²ä1
 n
-java:S11924"LDefine a constant instead of duplicating this literal "numcommande" 3 times.(ŸçÇÑÿÿÿÿÿ8¶ãã—ä1
+java:S1192N"LDefine a constant instead of duplicating this literal "numcommande" 5 times.(ŸçÇÑÿÿÿÿÿ8ë§²ä1
 i
-java:S11927"GDefine a constant instead of duplicating this literal "status" 3 times.(úœý¦úÿÿÿÿ8·ãã—ä1
+java:S1192Q"GDefine a constant instead of duplicating this literal "status" 5 times.(úœý¦úÿÿÿÿ8ë§²ä1
+r
+java:S2095é"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¸µÞïûÿÿÿÿ8°¨²ä1
 q
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8Ããã—ä1
+java:S2095d"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8±¨²ä1
+q
+java:S2095 "OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Š×œÊþÿÿÿÿ8÷Óà²ä1
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8÷Óà²ä1
+q
+java:S2095I"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8÷Óà²ä1
+m
+java:S2095ð"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ÿ’ËÊ8±¨²ä1
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8±¨²ä1
+l
+java:S2095)"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8±¨²ä1
+r
+java:S2095¹"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8±¨²ä1
+l
+java:S20952"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8±¨²ä1
+r
+java:S2095Ð"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8´Ã²ä1
+j
+java:S1128"HRemove this unused import 'org.apache.commons.codec.digest.DigestUtils'.(¦×½Éþÿÿÿÿ8£Ôà²ä1
+T
+java:S1128"7Remove this unused import 'org.structure.model.Client'.(¶°ôÐ8£Ôà²ä1
+`
+java:S1128">Remove this unused import 'org.structure.model.LigneCommande'.(××Â´øÿÿÿÿ8£Ôà²ä1

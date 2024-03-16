@@ -1,0 +1,11 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(ĞıÒ§8‡ÄÍ¯ä1
+o	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¯Ûıÿÿÿÿ8ÄÍ¯ä1
+\
+java:S1128":Remove this unused import 'org.structure.dao.CommandeDAO'.(½’èúÿÿÿÿ8ŸóÍ¯ä1
+e
+java:S1128"CRemove this unused import 'org.structure.dao.impl.CommandeDAOImpl'.(†ˆ‹Áşÿÿÿÿ8ŸóÍ¯ä1
+Z
+java:S1128"8Remove this unused import 'org.structure.model.Article'.(ÆÕéÖşÿÿÿÿ8 óÍ¯ä1
+T
+java:S1128	"7Remove this unused import 'org.structure.model.Client'.(¶°ôĞ8 óÍ¯ä1

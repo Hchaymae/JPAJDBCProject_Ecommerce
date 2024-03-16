@@ -42,6 +42,22 @@
         <servlet-name>Details</servlet-name>
         <url-pattern>/details</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Panier</servlet-name>
+        <servlet-class>org.structure.controller.PanierController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Panier</servlet-name>
+        <url-pattern>/consulter</url-pattern>
+    </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Visualisation</servlet-name>
+        <servlet-class>org.structure.controller.VisualisePanierController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Visualisation</servlet-name>
+        <url-pattern>/visualiser</url-pattern>
+    </servlet-mapping>
 
 </web-app>

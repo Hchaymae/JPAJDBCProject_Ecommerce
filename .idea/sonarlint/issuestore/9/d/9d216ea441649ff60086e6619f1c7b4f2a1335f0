@@ -19,3 +19,5 @@ q
 java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ8Õæç•ä1
 l
 java:S2095="OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø·“ÿ8À½°•ä1
+T
+java:S1128"7Remove this unused import 'org.structure.model.Client'.(¶°ôÐ8±ˆé˜ä1

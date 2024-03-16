@@ -2,6 +2,8 @@ package org.structure.model;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 @Table(name="article")
 public class Article {
@@ -13,8 +15,12 @@ public class Article {
     private String  titre;
     private double  prix;
     private int  stock;
+    @Transient
     private Categorie categorie;
     private String photo;
+
+    @Transient
+    private List<LigneCommande> commandes;
 
     public Article(int codeArticle, String designation, String auteur, String titre, double prix, int stock, Categorie categorie, String photo) {
         this.codeArticle = codeArticle;
@@ -26,6 +32,12 @@ public class Article {
         this.categorie = categorie;
         this.photo = photo;
     }
+    public Article(int codeArticle, String designation,double prix, int stock) {
+        this.codeArticle = codeArticle;
+        this.designation = designation;
+        this.prix = prix;
+        this.stock = stock;
+    }
     public Article( String designation, String auteur, String titre, double prix, int stock, Categorie categorie, String photo) {
         this.codeArticle = 0;
         this.designation = designation;
@@ -35,6 +47,14 @@ public class Article {
         this.stock = stock;
         this.categorie = categorie;
         this.photo = photo;
+    }
+
+    public List<LigneCommande> getCommandes() {
+        return commandes;
+    }
+
+    public void setCommandes(List<LigneCommande> commandes) {
+        this.commandes = commandes;
     }
 
     public Article() {

@@ -8,6 +8,7 @@ public interface LigneCommandeDAO {
     public int addLigneCommande(LigneCommande ligneCommande);
     public LigneCommande findLigneCommandeBynumcommande(int numcommande);
     public List<LigneCommande> selectAll();
+    public List<LigneCommande> selectAllByClientId(int codeclient);
 
     //    public boolean updateLigneCommande(LigneCommande ligneCommande);
 //    public boolean deleteLigneCommande(LigneCommande ligneCommande);
